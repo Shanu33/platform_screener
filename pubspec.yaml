@@ -4,7 +4,7 @@ description: >
   (Android, iOS, Web, Windows, Linux, macOS, PWA Mobile/Desktop,
   or even desktop-site-on-mobile) and screen orientation (portrait or landscape)
   to help customize layouts gracefully on every screen and platform.
-version: 0.0.1
+version: 0.0.2
 
 homepage: https://github.com/Shanu33
 repository: https://github.com/Shanu33/platform_screener

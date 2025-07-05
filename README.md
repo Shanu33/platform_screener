@@ -1,9 +1,11 @@
 # 📱 platform_screener
 
-[![pub package](https://img.shields.io/pub/v/platform_screener.svg)](https://pub.dev/packages/platform_screener)
 
-[![likes](https://badges.bar/pub-likes/platform_screener)](https://pub.dev/packages/platform_screener/score)
-[![points](https://badges.bar/pub-points/platform_screener)](https://pub.dev/packages/platform_screener/score)
+[![pub package](https://img.shields.io/pub/v/platform_screener.svg?logo=dart)](https://pub.dev/packages/platform_screener)
+[![Likes](https://img.shields.io/pub/likes/platform_screener?logo=dart)](https://pub.dev/packages/platform_screener)
+[![Pub Points](https://img.shields.io/pub/points/platform_screener?logo=dart)](https://pub.dev/packages/platform_screener)
+[![Popularity](https://img.shields.io/pub/popularity/platform_screener?logo=dart)](https://pub.dev/packages/platform_screener)
+
 
 **`platform_screener` is the ultimate cross-platform + orientation detector for Flutter.**
 
@@ -30,7 +32,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  platform_screener: ^0.0.1
+  platform_screener: ^0.0.2
 ```
 
 Run:
