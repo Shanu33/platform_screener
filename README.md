@@ -4,7 +4,6 @@
 [![pub package](https://img.shields.io/pub/v/platform_screener.svg?logo=dart)](https://pub.dev/packages/platform_screener)
 [![Likes](https://img.shields.io/pub/likes/platform_screener?logo=dart)](https://pub.dev/packages/platform_screener)
 [![Pub Points](https://img.shields.io/pub/points/platform_screener?logo=dart)](https://pub.dev/packages/platform_screener)
-[![Popularity](https://img.shields.io/pub/popularity/platform_screener?logo=dart)](https://pub.dev/packages/platform_screener)
 
 
 **`platform_screener` is the ultimate cross-platform + orientation detector for Flutter.**
