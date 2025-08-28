@@ -32,7 +32,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  platform_screener: ^0.0.3
+  platform_screener: ^0.0.4
 ```
 
 Run:

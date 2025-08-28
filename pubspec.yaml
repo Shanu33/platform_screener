@@ -1,6 +1,6 @@
 name: platform_screener
 description: A Flutter utility to detect platform and screen orientation (Android, iOS, Web, macOS, Linux, Windows, PWA, etc.) for responsive UI design.
-version: 0.0.3
+version: 0.0.4
 
 homepage: https://github.com/Shanu33
 repository: https://github.com/Shanu33/platform_screener

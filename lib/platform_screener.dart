@@ -3,8 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'src/platform_utils.dart';
 import 'src/pwa_utils.dart';
 
-var _size;
-
+late Size _size;
 /// Defines screen orientation modes.
 enum ScreenMode { portrait, landscape }
 
@@ -16,6 +15,12 @@ ScreenMode getScreenMode(BuildContext context) {
 
 /// A utility class to detect the current platform and runtime conditions.
 class DeviceDetector {
+
+  /// Call this once with BuildContext to initialize
+  static void init(BuildContext context) {
+    _size = MediaQuery.of(context).size;
+  }
+
   /// True if the app is running on a mobile browser (not a PWA).
   static final bool isMobileBrowser =
       kIsWeb && !isStandalonePWA() && isMobileUserAgent();
@@ -64,6 +69,9 @@ class DeviceDetector {
       isDesktopBrowser ||
       isPWA_Desktop ||
       isLinuxNative;
+  static final bool isBrowser=isDesktopBrowser || isMobileBrowser;
+  static final bool isPWA= isPWA_Desktop||isPWA_Mobile ;
+  static final bool isNative=isAndroidNative || isIosNative || isLinuxNative ||isWindowsNative||isMacOSNative;
 }
 
 /// A widget that renders different UI widgets depending on the platform.
